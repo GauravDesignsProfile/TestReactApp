@@ -3,7 +3,6 @@ import Navigation from "../Navigation/Navigation";
 import "./Notes.css";
 import Image from "../Images/pexels-madison-inouye-1937337.jpg";
 import { Link } from "react-router-dom";
-import Arrow from "../Images/arrow-right-short.svg";
 
 function Notes(){
     return(
