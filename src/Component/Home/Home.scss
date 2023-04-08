@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"),
+     url("../Fonts/static/PlayfairDisplay-Black.ttf") format("truetype");
+    }
+
+.LandingBack{
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+}
+
+.LandingBack h1{
+    width: 50vw;
+    text-align: center;
+    transform: translate(0, -80px);
+}
+.FDiv{
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    border-radius: 10px;
+    transform: translate(35%,-50%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.FDiv h3{
+    margin-left: 2%;
+    font-family: "Playfair Display";
+}
+.Featured{
+    padding: 2%;
+    display: flex;
+}
+.Featured h3{
+    margin: 0;
+}
+.Featured img{
+    width: 400px;
+}

@@ -1,0 +1,51 @@
+.CardContainer{
+    width: 60vw;
+    background-color: rgb(251, 251, 251);
+    padding: 30px;
+    border-radius: 10px;
+}
+.filter{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+.filter a{
+    padding: 5%;
+    margin: 10px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-family: "Poppins Light";
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+.filter a:hover{
+    background-color: rgb(174, 174, 174);
+    color: rgb(249, 249, 249);
+    transition: 0.3s ease-in-out;
+}
+.Active{
+    background-color: rgb(68, 68, 68);
+    color: rgb(249, 249, 249);
+}
+.filter span{
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.NotesCon{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 2% 5%;
+    font-family: "Poppins";
+}
+.NotesCon h3{
+    margin-bottom: 20px;
+}
+.Topics{
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}

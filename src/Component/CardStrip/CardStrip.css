@@ -1,0 +1,48 @@
+.CardStrip {
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3% 5%;
+  font-family: "Poppins";
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: 1%;
+}
+
+.CardStrip img {
+  width: 70px;
+}
+
+.CardStrip button {
+  padding: 1.2% 2.5%;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins";
+}
+
+.Tdetails {
+  width: 20vw;
+  margin: 0 3%;
+}
+
+.Tdetails p {
+  color: #939393;
+}
+
+.CardStrip:hover {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=CardStrip.css.map */

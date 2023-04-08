@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), url("../Fonts/static/PlayfairDisplay-Black.ttf") format("truetype");
+}
+
+.LandingBack {
+  background-size: cover;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Playfair Display';
+  font-size: 30px;
+}
+
+.LandingBack h1 {
+  width: 50vw;
+  text-align: center;
+  -webkit-transform: translate(0, -80px);
+          transform: translate(0, -80px);
+}
+
+.FDiv {
+  padding: 2%;
+  background-color: white;
+  width: 60vw;
+  border-radius: 10px;
+  -webkit-transform: translate(35%, -50%);
+          transform: translate(35%, -50%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.FDiv h3 {
+  margin-left: 2%;
+  font-family: "Playfair Display";
+}
+
+.Featured {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Featured h3 {
+  margin: 0;
+}
+
+.Featured img {
+  width: 400px;
+}
+/*# sourceMappingURL=Home.css.map */
